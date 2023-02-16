@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+body{
+    height: 100vh;
+    background: #D9CDF7;
+    display: flex;
+    align-items: center;
+}
+
+#container{
+    display: flex;
+    width: 50vw;
+    justify-content: right;
+}
+
+#sofa{
+    width: 449px;
+}
+
+#spin{
+    margin-right: 63px;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    width:  fit-content;
+    cursor: pointer;
+    align-items: center;
+    justify-items: center;
+}
+
+#spin img{
+    transition: 0.4s; 
+}
+
+#spin img:hover{
+    transform: scale(1.2);
+}
+/* text */
+
+#info{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+#info *{
+    color: #271A45;
+}
+
+#info button, #codigo, price{
+    font-family: 'Lato', sans-serif;
+}
+
+#codigo{
+    font-weight: 300;
+    font-size: 10px;
+    padding-bottom: 12px;
+}
+
+#name{
+    font-family: 'Crimson Pro';
+    font-size: 32px;
+    padding-bottom: 12px;
+}
+
+#price{
+    font-weight: 400;
+}
+
+#info button{
+    margin-top: 20px;
+    box-sizing: content-box;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;  
+    background-color: transparent;
+    padding: 8px 16px;
+    width: fit-content;
+
+    border: solid 1px;
+    border-radius: 999px;
+    transition: 0.2s;
+}
+
+#info button:hover{
+    cursor: pointer;
+    position: static;
+    background-color: #271A45;
+    color: #D9CDF7;
+    transition: 0.2s;
+}
+
+@media (max-width: 700px){
+    body{
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    #container{
+        margin-top: 50px;
+        width: fit-content;
+        justify-self: center;
+    }
+}
