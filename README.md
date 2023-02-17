@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Card de venda de um sofá
 
-- [Acesse o projeto finalizado, online clicando aqui](https://carlimaraujo.github.io/productCard/)
+- [Acesse o projeto finalizado, online clicando aqui](https://carlimaraujo.github.io/card-product/)
 
 
 
